@@ -1,0 +1,41 @@
+// shop navigation
+
+.shop-stuff{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+  align-items: center;
+  align-self: center;
+  justify-content:space-around;
+  width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.shop-category{
+  border: 1px solid #e1e1e1;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:column;
+  align-items: center;
+  align-self: center;
+  max-width: 250px;
+  margin: 0px 15px;
+
+}
+
+
+.shop-category-image {
+  height: 70px;
+  width: 70px;
+}
+.shop-category-link{
+  background: $blue_link_color;
+  color: $white_text_color;
+}
+
+a:active,
+a:hover {
+  color: $white_text_color;
+}
